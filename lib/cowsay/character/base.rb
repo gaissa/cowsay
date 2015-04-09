@@ -2,7 +2,7 @@ module Cowsay
   module Character
 
     class Base
-      MAX_LINE_LENGTH = 16 unless defined?(MAX_LINE_LENGTH)
+      MAX_LINE_LENGTH = 24 unless defined?(MAX_LINE_LENGTH)
 
       def self.say(message)
         new.say(message)
