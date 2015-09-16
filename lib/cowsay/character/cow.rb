@@ -5,7 +5,7 @@ module Cowsay
       def template
         <<-TEMPLATE
       #{@thoughts}   ^__^
-       #{@thoughts}  (oo)\\_______YES
+       #{@thoughts}  (oo)\\_______
           (__)\\       )\\/\\
               ||----w |
               ||     ||
