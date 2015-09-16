@@ -1,7 +1,7 @@
 module Cowsay
   module Character
 
-    class Koala < Base
+    class Temp < Base
       def template
         <<-TEMPLATE
   #{@thoughts}
